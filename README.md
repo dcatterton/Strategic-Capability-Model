@@ -1,0 +1,1 @@
+# Strategic-Capability-Model

@@ -1,0 +1,87 @@
+/**
+ * Define all Tyler Forge web components used by the app.
+ * Import this once in main.jsx before rendering.
+ */
+import {
+  defineScaffoldComponent,
+  defineAppBarComponent,
+  defineTabBarComponent,
+  defineTabComponent,
+  defineBadgeComponent,
+  defineIconComponent,
+  defineButtonComponent,
+  defineButtonAreaComponent,
+  defineCardComponent,
+  defineToolbarComponent,
+  defineIconButtonComponent,
+  defineAvatarComponent,
+  defineMeterComponent,
+  defineAccordionComponent,
+  defineExpansionPanelComponent,
+  defineModalDrawerComponent,
+  defineLinearProgressComponent,
+  defineStepperComponent,
+  defineChipSetComponent,
+  defineChipComponent,
+  defineButtonToggleGroupComponent,
+  defineButtonToggleComponent,
+  defineDialogComponent,
+  defineCheckboxComponent,
+  defineTextFieldComponent,
+  defineSelectComponent,
+  defineOptionComponent,
+  definePageStateComponent,
+  defineListComponent,
+  defineListItemComponent,
+  defineKeyComponent,
+  defineKeyItemComponent,
+  defineDividerComponent,
+  defineBackdropComponent,
+  defineInlineMessageComponent,
+  defineSkeletonComponent,
+  definePaginatorComponent,
+  definePopoverComponent,
+  defineTooltipComponent,
+} from '@tylertech/forge';
+
+export function defineForgeComponents() {
+  defineScaffoldComponent();
+  defineAppBarComponent();
+  defineTabBarComponent();
+  defineTabComponent();
+  defineBadgeComponent();
+  defineIconComponent();
+  defineAvatarComponent();
+  defineMeterComponent();
+  defineButtonComponent();
+  defineButtonAreaComponent();
+  defineCardComponent();
+  defineToolbarComponent();
+  defineIconButtonComponent();
+  defineAccordionComponent();
+  defineExpansionPanelComponent();
+  defineModalDrawerComponent();
+  defineLinearProgressComponent();
+  defineStepperComponent();
+  defineChipSetComponent();
+  defineChipComponent();
+  defineButtonToggleGroupComponent();
+  defineButtonToggleComponent();
+  defineDialogComponent();
+  defineCheckboxComponent();
+  defineTextFieldComponent();
+  defineSelectComponent();
+  defineOptionComponent();
+  definePageStateComponent();
+  defineListComponent();
+  defineListItemComponent();
+  defineKeyComponent();
+  defineKeyItemComponent();
+  defineDividerComponent();
+  defineBackdropComponent();
+  defineInlineMessageComponent();
+  defineSkeletonComponent();
+  definePopoverComponent();
+  defineTooltipComponent();
+  definePaginatorComponent();
+}
